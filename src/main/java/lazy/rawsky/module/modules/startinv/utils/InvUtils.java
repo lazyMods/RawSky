@@ -1,8 +1,8 @@
-package lazy.rawsky.module.startinv.utils;
+package lazy.rawsky.module.modules.startinv.utils;
 
 import lazy.rawsky.RawSky;
-import lazy.rawsky.module.startinv.json.InventoryModel;
-import lazy.rawsky.module.startinv.json.ItemModel;
+import lazy.rawsky.module.modules.startinv.json.InventoryModel;
+import lazy.rawsky.module.modules.startinv.json.ItemModel;
 import lazy.rawsky.utils.ItemUtils;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.item.ItemStack;

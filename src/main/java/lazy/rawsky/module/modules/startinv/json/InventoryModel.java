@@ -1,10 +1,10 @@
-package lazy.rawsky.module.startinv.json;
+package lazy.rawsky.module.modules.startinv.json;
 
 import com.google.common.collect.Maps;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonSyntaxException;
-import lazy.rawsky.module.startinv.utils.EnumArmorType;
+import lazy.rawsky.module.modules.startinv.utils.EnumArmorType;
 import lazy.rawsky.utils.DataUtils;
 import net.minecraft.util.JSONUtils;
 

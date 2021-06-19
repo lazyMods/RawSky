@@ -1,10 +1,10 @@
-package lazy.rawsky.module.startinv.events;
+package lazy.rawsky.module.modules.startinv.events;
 
 import lazy.rawsky.Ref;
 import lazy.rawsky.module.ModuleSystem;
-import lazy.rawsky.module.startinv.StartInvModule;
-import lazy.rawsky.module.startinv.json.InventoryModel;
-import lazy.rawsky.module.startinv.utils.InvUtils;
+import lazy.rawsky.module.modules.startinv.StartInvModule;
+import lazy.rawsky.module.modules.startinv.json.InventoryModel;
+import lazy.rawsky.module.modules.startinv.utils.InvUtils;
 import lazy.rawsky.utils.PlayerUtils;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraftforge.event.entity.EntityJoinWorldEvent;

@@ -1,10 +1,10 @@
-package lazy.rawsky.module.startinv;
+package lazy.rawsky.module.modules.startinv;
 
 import com.google.gson.JsonObject;
 import lazy.rawsky.RawSky;
 import lazy.rawsky.Ref;
 import lazy.rawsky.module.IModule;
-import lazy.rawsky.module.startinv.json.InventoryModel;
+import lazy.rawsky.module.modules.startinv.json.InventoryModel;
 import lazy.rawsky.utils.FileUtils;
 import net.minecraft.util.JSONUtils;
 import net.minecraft.util.ResourceLocation;

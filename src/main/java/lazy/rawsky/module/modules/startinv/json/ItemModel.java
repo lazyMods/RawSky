@@ -1,4 +1,4 @@
-package lazy.rawsky.module.startinv.json;
+package lazy.rawsky.module.modules.startinv.json;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;

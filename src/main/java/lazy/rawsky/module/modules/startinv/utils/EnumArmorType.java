@@ -1,4 +1,4 @@
-package lazy.rawsky.module.startinv.utils;
+package lazy.rawsky.module.modules.startinv.utils;
 
 public enum EnumArmorType {
     head(3),
