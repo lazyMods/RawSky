@@ -1,11 +1,11 @@
 package lazy.rawsky.utils;
 
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 import lazy.rawsky.Ref;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
+import java.lang.reflect.Type;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -44,5 +44,25 @@ public class FileUtils {
             e.printStackTrace();
         }
         return null;
+    }
+
+    public static <T> T gsonRead(Gson gson, Type type, File file, T fallback){
+        try {
+            return gson.fromJson(new FileReader(file), type);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        return fallback;
+    }
+
+    public static void gsonWrite(Gson gson, File file, Object content){
+        try {
+            FileWriter writer = new FileWriter(file);
+            gson.toJson(content, writer);
+            writer.flush();
+            writer.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

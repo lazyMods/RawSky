@@ -11,6 +11,7 @@ public class ModuleSystem {
     public static final List<IModule> MODULES = Lists.newArrayList();
 
     public static void init() {
+        ModuleConfigs.init();
         MODULES.forEach(IModule::onInit);
     }
 
