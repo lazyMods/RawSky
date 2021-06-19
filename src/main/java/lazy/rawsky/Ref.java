@@ -13,5 +13,6 @@ public class Ref {
     public static class ModuleIds {
 
         public static final String START_INV = "start_inventory";
+        public static final String SHOW_DATA = "show_data";
     }
 }
